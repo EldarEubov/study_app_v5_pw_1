@@ -33,4 +33,11 @@
       <value>Инженер</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="3674f278-05f4-4b5f-99cd-bc780d17a653">
+    <name>ОператорЧПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оператор ЧПУ</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
