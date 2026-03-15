@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05965d67-0a31-4821-8ed8-e26714c3402d">
+  <producedTypes>
+    <selectionType typeId="2be61f93-3046-45c8-9383-2984fd0991c8" valueTypeId="fd858563-96c4-4731-9677-0a7121de4056"/>
+    <listType typeId="04512911-1fe7-4852-9f18-726e7044e362" valueTypeId="9157d580-331d-41f4-8d6b-6166e2afa7bd"/>
+    <managerType typeId="4826dec9-ee1d-4153-af8e-165db48fb9c8" valueTypeId="484e0bcf-91a1-4d36-a520-8ecc747b3a18"/>
+    <recordSetType typeId="8ddf24d9-aeca-46e2-8fc4-1f15b8cd1394" valueTypeId="a6259ef8-0d0b-4874-88d7-59a2c1137a94"/>
+    <recordKeyType typeId="1db37536-d807-4a19-b6f8-2500eb113424" valueTypeId="581a7b87-4971-464c-9f49-aacada32eea4"/>
+    <recordType typeId="88993c93-fc73-4e0d-90b1-203a9562b75c" valueTypeId="c68e9d2c-c26e-4b15-992e-7647104ed11b"/>
+  </producedTypes>
+  <name>СтоимостныеПоказатели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимостные показатели</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="47cfc0cd-b5da-4ed3-a103-70ba2b95e330">
+    <name>Себестоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="61cd6237-628e-42f4-a630-00893aba38ff">
+    <name>ОбщаяСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="42a0332b-cd3c-4a39-90cd-2503cd50bf08">
+    <name>Продукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГотоваяПродукция</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="c61f191e-eebb-4fa7-95ef-f2cb19701b3a">
+    <name>ЭтапПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Этап производства</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭтапыПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

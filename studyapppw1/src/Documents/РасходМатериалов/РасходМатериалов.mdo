@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03303ca8-4f96-4893-a0f2-ef41c64039a2">
+  <producedTypes>
+    <objectType typeId="0f6848af-25ef-498a-9e51-56862aa7c531" valueTypeId="2df61198-967a-4e47-80d7-8208327621c6"/>
+    <refType typeId="55b8c325-a369-4bcc-9b99-e731582eb2c0" valueTypeId="6bcbf90d-4d8c-4885-8782-7b95dfd58cf0"/>
+    <selectionType typeId="3596848f-f789-41d9-b642-b29bf5e7db15" valueTypeId="e86fcab6-9c6a-4e77-9543-e9955a807e23"/>
+    <listType typeId="60857c83-f5d9-4b16-aee3-7d6b0566b542" valueTypeId="043e3106-594a-4666-9334-fa1d62f2435c"/>
+    <managerType typeId="d4126fa8-b9d7-41c4-86e7-fe1d1ef590ae" valueTypeId="b602f9f4-6369-478c-a250-4f28ce20ddc8"/>
+  </producedTypes>
+  <name>РасходМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расход материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РасходМатериалов.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РасходМатериалов.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="6fd4282d-9761-4f90-b397-53059b460836">
+    <name>Производство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.Производство</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="92536a74-3610-427c-a5ad-2b6b62035851">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8272f5d9-fac1-4b07-885e-9ad7c7d17513">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="135a36a3-ef99-49aa-82da-aff2a8b4e436">
+    <producedTypes>
+      <objectType typeId="f743e154-eaae-4fa1-907f-85f9c50ef938" valueTypeId="5829d4ed-ab0e-42c3-aad0-3284c3f73ff7"/>
+      <rowType typeId="38804efb-f0f5-41c5-a893-ce316eb6fca2" valueTypeId="d737c874-2303-4f17-b348-7fda43a268cf"/>
+    </producedTypes>
+    <name>Материалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материалы</value>
+    </synonym>
+    <attributes uuid="24e36ce6-2984-4150-978b-d999f858ae53">
+      <name>Материал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Материал</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Материалы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b166a39c-69fc-49ce-9525-fbc24f21f82c">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fdd9b416-7494-4c5b-abc4-427fc6d25fe1">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="70e81413-b1f7-40c7-99f1-a751929f0dbe"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="906fd0e9-d5fe-4110-b0ac-d0c8264bf18e"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d651cf90-4957-4c6e-a71a-b8a778d460bf"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b37e6d57-97fc-4389-843b-fb2b2564a404"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f3aad479-5497-4aba-ba4f-b7d61666c20e"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="8ff67f6e-b617-4279-8f6b-2eb246fee300"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="e98a2aa5-7ed6-4638-9a0b-27b470f9a1b7"/>
+  <configurationExtensionCompatibilityMode>8.3.26</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="3510559b-2660-41ea-81a7-0529183fd3a5">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Документы</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <catalogs>Catalog.Материалы</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.ГотоваяПродукция</catalogs>
+  <catalogs>Catalog.ЭтапыПроизводства</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.Производство</documents>
+  <documents>Document.РасходМатериалов</documents>
+  <documents>Document.ПоступлениеМатериалов</documents>
+  <enums>Enum.ЕдиницыИзмерения</enums>
+  <enums>Enum.ГруппыМатериалов</enums>
+  <enums>Enum.ГруппыПродукции</enums>
+  <enums>Enum.Должность</enums>
+  <reports>Report.АнализИспользованияМатериалов</reports>
+  <reports>Report.ОстаткиИОборотыМатериалов</reports>
+  <reports>Report.АнализСебестоимостиПродукции</reports>
+  <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостныеПоказатели</accumulationRegisters>
+</mdclass:Configuration>

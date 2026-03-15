@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bf7da51-7d31-42c6-b2c0-71007d9a3314">
+  <producedTypes>
+    <refType typeId="53419f87-e53a-45d4-a40c-aed1618bafc4" valueTypeId="90c26dbc-3a1e-4d5a-aa97-afd552a9619a"/>
+    <listType typeId="c8d8cff9-1d88-410c-ae4b-ca15d55d6cbe" valueTypeId="cc5f0ed0-82eb-4cba-b878-3d1d416af026"/>
+    <managerType typeId="235e1529-2241-40ba-b9e0-efc09ea87abe" valueTypeId="e8151fa4-329d-4f88-bac7-a6677276220c"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f1645596-b20c-4db0-910e-744fcfc7b7f7">
+    <name>кг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e773d50b-1fb7-4ee8-904f-1f2534dd7ac2">
+    <name>л</name>
+    <synonym>
+      <key>ru</key>
+      <value>Л</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="970afd56-6be9-42a5-b1c6-d57d6e7dafb5">
+    <name>шт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

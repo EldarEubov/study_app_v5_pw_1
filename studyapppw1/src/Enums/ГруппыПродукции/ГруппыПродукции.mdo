@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b9eca80-e8e6-4056-9c73-70de379e8d8e">
+  <producedTypes>
+    <refType typeId="aae94dab-e903-4686-a6fe-7fdffb116353" valueTypeId="a93ff0f6-dd0b-49f1-ba38-2762420bfbd9"/>
+    <listType typeId="3fa50450-77ab-45de-a0ee-b4d7f29187df" valueTypeId="c9de3110-f45e-4542-a7ff-97be2011dc72"/>
+    <managerType typeId="e0fce718-23a8-41cf-a048-0c2916150008" valueTypeId="da7e25db-115b-490b-be4e-664fc610c872"/>
+  </producedTypes>
+  <name>ГруппыПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы продукции</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="334b6313-04ab-4694-8559-ca002624d0b6">
+    <name>Мебель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мебель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6496d17-1bd7-4aef-b13a-b77dfba7647c">
+    <name>Электроника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электроника</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61aaea53-5058-4639-9818-0e235967059f">
+    <name>БытоваяТехника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бытовая техника</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

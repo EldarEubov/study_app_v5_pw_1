@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c1e0106-35f6-4373-93f3-466482284691">
+  <producedTypes>
+    <objectType typeId="61a46495-11a2-4350-940a-0c803a2daae8" valueTypeId="14810607-22c1-4d10-aec9-87f57295a52b"/>
+    <refType typeId="e82cd884-f4b4-4392-918e-e08267ad5133" valueTypeId="f057c15b-48d7-4172-9b64-ae671c9dfdea"/>
+    <selectionType typeId="a0ee3382-90a6-4df5-8c7e-aaf31d61cade" valueTypeId="64ee88ac-b2dc-4390-8388-853cf50f1eb8"/>
+    <listType typeId="4dcab42c-8644-4d54-80df-83e29472436c" valueTypeId="f7225308-9363-4920-9b66-68554cd628ba"/>
+    <managerType typeId="3c131af0-e49d-4ff3-9af7-72c5355d46d3" valueTypeId="875eabb6-7e1f-4893-94fb-96809e0d1fc5"/>
+  </producedTypes>
+  <name>ГотоваяПродукция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Готовая продукция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГотоваяПродукция.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГотоваяПродукция.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3c4b4221-f93c-4e35-8826-1e5eae0244e5">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="de79ee95-0c15-4e77-b386-01d2d1c444fb">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6e6d46fb-b449-4b1a-b0b1-1fb5051fcba1">
+    <name>Рентабельность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рентабельность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="80bfc3ec-ee6a-492b-b8f8-cef707a3a32c">
+    <name>ГруппаПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа продукции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ГруппыПродукции</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

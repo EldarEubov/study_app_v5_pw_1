@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02236633-f44e-40b1-8240-e707e15ab7e7">
+  <producedTypes>
+    <refType typeId="3f29d04a-98e0-43dc-ade6-9ea48b623b95" valueTypeId="f7de81e3-060d-478c-b9db-bc25beb7a391"/>
+    <listType typeId="8f636151-ed91-4ea1-8134-457f8d624e91" valueTypeId="2b4b783d-f08f-4f6c-8770-55e46f04135d"/>
+    <managerType typeId="a011a816-3501-40c1-9450-99750cfd2e68" valueTypeId="ec6300ab-0056-4e7d-ab37-153aa8065d8a"/>
+  </producedTypes>
+  <name>ГруппыМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы материалов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0d3611ae-94dc-4001-8394-7ae2459bd122">
+    <name>Металл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Металл</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2cb42ef9-d8b2-4028-997d-a4f09b59e992">
+    <name>Пластик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пластик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f114ec2e-a3ea-470b-9ffb-3faffcdf5433">
+    <name>Краска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Краска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c404deb3-89df-4354-994b-83cbf4d53dc0">
+    <name>Дерево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03551887-1ba6-4cef-8d8b-451b96058334">
+    <name>Электрика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электрика</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
